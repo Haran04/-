@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(void)
+{
+  int a = 0;
+  
+  if(a>0) //a가 0보다 크다면
+  {
+    printf("양수"); //양수 출력
+  }
+  else if(a==0) //a가 0이라면 (else if는 많이 쓸 수 있다)
+  {
+    printf("0"); //0을 출력
+  }
+  else //위에 if와 else if가 틀렸다면(a가 0보다 작다면)
+  {
+    printf("음수"); //음수 출력
+  }
+}
