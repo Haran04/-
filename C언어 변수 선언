@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(void)
+{
+  int num1; //정수형 변수 num1를 선언 (4바이트)
+  double num2; //실수형 변수 num2를 선언 (8바이트)
+  char str; //문자형 변수 str을 선언 (1바이트)
+}
