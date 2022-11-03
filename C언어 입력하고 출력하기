@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(void)
+{
+  int m;
+  scanf("%d", &m); //입력 받을 때는 scanf를 쓰고 무슨 형인지(%d, %c %lf)를 쓴후 변수를 쓸때는 & (엔드)를 적어야 한다
+  printf("%d", m);
+}
