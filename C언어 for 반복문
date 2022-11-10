@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(void)
+{
+  int i;
+  
+  for(i=0; i<5; i++) //for(;;)형식으로 i를 0부터 5보다 작은 4까지 1씩 더하며 반복한다
+  {
+    printf("hello world!\n"); //hello world!를 5번 반복을 시켜서 출력
+  }
+}
